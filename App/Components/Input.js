@@ -25,7 +25,8 @@ const Input = forwardRef(
       keyboardType,
       multiline,
       inputStyle,
-      containerStyle
+      containerStyle,
+      secureTextEntry
     },
     ref,
   ) => {
@@ -80,6 +81,7 @@ const Input = forwardRef(
                 ref={ref}
                 keyboardType={keyboardType}
                 multiline={multiline}
+                secureTextEntry={secureTextEntry}
               />
             )}
             {targetNavigate && (

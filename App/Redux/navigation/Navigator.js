@@ -12,7 +12,7 @@ export const Navigator = () => (
     <AppStackNavigator.Navigator
       headerMode="none"
       screenOptions={{headerShown: false, gestureEnabled: false}}
-      initialRouteName={'AppStack'}>
+      initialRouteName={'CompleteLoginScreen'}>
       <AppStackNavigator.Screen name="AuthStack" component={AuthStack} />
       <AppStackNavigator.Screen name="AppStack" component={AppStack} />
       <AppStackNavigator.Screen name="Modal" component={ModalComponent} options={{cardStyle: {backgroundColor: 'transparent'}, animationEnabled: false,}} />

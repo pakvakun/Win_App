@@ -42,13 +42,12 @@ const SendCodeScreen = (props) => {
   };
 
   useEffect(() => {
-    alert(props.codeSend)
-    // if (route.params.initScreen) {
-    //   props.navigation.navigate(route.params.initScreen);
-    // } else {
-    //   props.navigation.navigate('CompleteLoginScreen');
-    // }
-  }, []);
+    if (route.params.initScreen) {
+      props.navigation.navigate(route.params.initScreen);
+    } else {
+      props.navigation.navigate('CompleteLoginScreen');
+    }
+  }, [props.codeSend]);
   console.log(props);
   return (
     <KeyboardAvoidingView
