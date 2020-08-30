@@ -1,0 +1,15 @@
+export const USER_SEND_PHONE = 'USER_SEND_PHONE';
+export const USER_SEND_CODE = 'USER_SEND_CODE';
+export const USER_LOGIN = 'USER_LOGIN';
+export const CLEAR_ERROR = 'CLEAR_ERROR';
+
+export const USER_CONFIRM_PHONE = 'USER_CONFIRM_PHONE';
+
+// Courses List
+export const USER_GET_COURSES_LIST = 'USER_GET_COURSES_LIST';
+
+export const USER_GET_COURSE = 'USER_GET_COURSE';
+export const USER_GET_COURSE_TRAINING = 'USER_GET_COURSE_TRAINING';
+
+export const USER_SET_ROLE = 'USER_SET_ROLE';
+export const ACTIVATE_TEACHER = 'ACTIVATE_TEACHER';
